@@ -78,8 +78,6 @@ Check the user has been created successfully
 
 Restart Container to ensure policies have applied.
 
-**\#TODO:** update docker entry script to allow SIGINT to gracefully stop MongoDB on stop/restart container.
-
 ```
 $ docker kill --signal=SIGINT rpi3-mongodb3
 $ docker start rpi3-mongodb3
